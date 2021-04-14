@@ -30,9 +30,10 @@ MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
     git checkout -b cinnamon origin/cinnamon
     cd ..
     wget https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.13-98189-g60a6ef199-gcc-linux.tar.gz
-    mkdir pin-3.13 && tar xvzf pin-3.13-98189-g60a6ef199-gcc-linux.tar.gz --strip-components 1
+    mkdir pin-3.13 && tar xvzf pin-3.13-98189-g60a6ef199-gcc-linux.tar.gz --directory pin-3.13 --strip-components 1
     git clone https://github.com/mahwisharif/pin-cinnamon
     cp -r pin-cinnamon/MyDSLTool pin-3.13/source/tools/
+    rm pin-3.13-98189-g60a6ef199-gcc-linux.tar.gz
 
 %help
 
