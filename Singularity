@@ -25,7 +25,6 @@ MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
     apt-get -y install build-essential curl git man wget vim autoconf libtool bison flex cmake clang-3.8 libelf-dev libboost-all-dev libdwarf-dev zlib1g-dev libtbb-dev binutils-dev libiberty-dev
     apt -y install python
     apt-get clean
-    cd ~
     mkdir data
     mkdir tests
    
