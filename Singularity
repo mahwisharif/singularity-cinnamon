@@ -16,9 +16,7 @@ MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
     clang --version
     echo "checking bison version..."
     bison --version
-    echo "checking flex version..."
-    bison --version
-    
+    echo "checking clang version"
 %post
     apt-get install -y software-properties-common
     add-apt-repository universe
