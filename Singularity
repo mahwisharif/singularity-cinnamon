@@ -3,8 +3,7 @@ OSVersion: xenial
 MirrorURL:  http://us.archive.ubuntu.com/ubuntu/
 
 %runscript
-    echo "going to set up and install - please wait"
-    echo "This is what happens when you run the container..."
+    echo "Going to set up and install - please wait....."
     lsb_release -a
     echo "checking cmake version..."
     cmake --version
